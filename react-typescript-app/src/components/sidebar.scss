@@ -1,0 +1,14 @@
+#sidebar {
+  height: 100%;
+  background-color: #00001e;
+  .MuiListItemButton-root {
+    color: #d4d4d4;
+  }
+  .material-symbols-outlined {
+    padding-right: 8px;
+  }
+  .active {
+    color: #ffffff;
+    background-color: #000038;
+  }
+}

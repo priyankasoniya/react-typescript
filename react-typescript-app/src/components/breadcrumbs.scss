@@ -1,0 +1,22 @@
+$linkcolor: #dbdbdb;
+
+.MuiBreadcrumbs-root {
+  font-size: 14px !important;
+
+  .MuiBreadcrumbs-separator {
+    color: $linkcolor;
+  }
+
+  .active-link {
+    cursor: pointer;
+    color: $linkcolor;
+    text-decoration: none;
+    &:hover {
+      color: #ffffff;
+      text-decoration: underline solid #ffffff;
+    }
+  }
+  .inactive-link {
+    color: $linkcolor;
+  }
+}

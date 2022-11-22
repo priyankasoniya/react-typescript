@@ -1,0 +1,26 @@
+#main-container {
+  height: 100vh;
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    position: fixed;
+    height: 26px;
+    width: 100%;
+    // padding: 4px;
+    background-color: #00001e;
+  }
+
+  .content {
+    margin-top: 26px;
+    height: 100%;
+  }
+
+  .flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
